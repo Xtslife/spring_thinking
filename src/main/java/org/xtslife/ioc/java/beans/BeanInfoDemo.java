@@ -16,7 +16,6 @@ public class BeanInfoDemo {
         System.out.println("类描述"+beanDescriptor);
         PropertyDescriptor[] propertyDescriptors = beanInfo.getPropertyDescriptors();
 
-
         Stream.of(propertyDescriptors).forEach(propertyDescriptor -> System.out.println("类属性描述"+propertyDescriptor));
 
     }
